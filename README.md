@@ -9,5 +9,5 @@ Files:
 
 How to run:
 1. Create a virtual environment (python -m venv .venv)
-2. Install dependencies (pip install -r requirement.txt)
+2. Install dependencies (pip install -r requirements.txt)
 3. Run the app: `python app.py`
