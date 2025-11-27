@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environment and python caches
+pip-log.txt
+
+# OneDrive files
+*.lnk
+
+# SQLite and vectorstore data
+vectorstore/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Sensitive config
+.env
+
+# JetBrains
+.idea/

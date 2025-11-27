@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "job_posting_text"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert job information extractor.\n\nYour task:\nAnalyze the given job posting text and extract all key details accurately.\n\nReturn your output **only** as a structured JSON object in the format below:\n\n{{\n  \"company_name\": \"\",\n  \"role\": \"\",\n  \"skills\": [],\n  \"experience\": \"\",\n  \"job_description\": \"\"\n}}\n\n### Instructions:\n- Do NOT include any text outside the JSON.\n- Do NOT guess or fabricate information. If data is missing, leave it blank or null.\n- Convert bullet points or lists (like skills) into JSON arrays.\n- Keep responses short, factual, and cleanly formatted.\n- Focus only on information explicitly available in the text.\n\n### Job Posting Text:\n--------------------\n{job_posting_text}\n--------------------\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

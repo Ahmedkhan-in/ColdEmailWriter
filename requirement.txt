@@ -1,0 +1,20 @@
+# LangChain Ecosystem (Updated to resolve Core conflict)
+langchain>=0.2.20
+langchain-community>=0.2.18
+langchain-core>=0.3.0  # **CRITICAL CHANGE**
+langchain-groq>=0.1.9
+langchain-huggingface>=0.1.0
+
+# Hugging Face Integration
+huggingface-hub>=0.23.0
+
+# Vector Store and Data Handling
+chromadb==1.3.5
+pandas>=2.2.0
+python-dotenv>=1.0.1
+
+# Web App and Utilities
+streamlit>=1.35.0
+beautifulsoup4>=4.12.3
+unstructured>=0.14.6
+selenium>=4.21.0
