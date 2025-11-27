@@ -11,3 +11,5 @@ How to run:
 1. Create a virtual environment (python -m venv .venv)
 2. Install dependencies (pip install -r requirements.txt)
 3. Run the app: `python app.py`
+
+Checkout the App: https://ahmedkhan-in-coldemailwriter-app-dw5yfw.streamlit.app/
