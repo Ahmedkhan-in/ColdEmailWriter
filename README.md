@@ -1,10 +1,9 @@
-# ANN_ass
+# Cold Email Writer
 
-This repository contains code and resources for the ANN assignment (GenAI) including app logic and a vectorstore for models.
+This repository contains code and resources for the an Agent that write personalized cold emails. It includes app logic and a vectorstore for models.
 
 Files:
 - `app.py` - main app entry
-- `app_model1.py` - model related code
 - `EmailPromptGenerator.py` - helpers for prompt generation
 - `my_portfolio.csv` - sample dataset
 
